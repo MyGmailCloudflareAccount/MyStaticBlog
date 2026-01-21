@@ -2,7 +2,7 @@ footer: p= "Copyright © 2016 - " + date(Date.now(), "YYYY") + " "
     a(href=url_for("."), rel="nofollow")= config.title
     if theme.copyright
         |
-        | |
+        | |&nbsp;
         strong: a(
             rel="nofollow",
             target="_blank",
@@ -20,8 +20,8 @@ footer: p= "Copyright © 2016 - " + date(Date.now(), "YYYY") + " "
         |
         | |
     | Powered by
-    a(rel="nofollow", target="_blank", href="https://hexo.io") Hexo.
-    | Theme with
+    a(rel="nofollow", target="_blank", href="https://hexo.io") Hexo.&nbsp;
+    | Theme with&nbsp;
     a(
         rel="nofollow",
         target="_blank",
