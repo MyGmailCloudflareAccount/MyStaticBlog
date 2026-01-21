@@ -97,6 +97,21 @@ date: 2026-01-21 11:48:38
 <script>
     window.onload = () => {
         const linkNav = document.getElementsByClassName("link-navigation")[0];
-        console.log(linkNav);
+
+        const html = links
+            .map(
+                (item) => `<div class="card">
+    <img class="ava" src="${item.avatar}" />
+    <div class="card-header">
+        <div>
+            <a href="${item.link}" target="_blank">${item.name}</a>
+        </div>
+        <div class="info">${item.desc}</div>
+    </div>
+</div>`,
+            )
+            .join("");
+
+        linkNav.innerHTML = html;
     };
 </script>
