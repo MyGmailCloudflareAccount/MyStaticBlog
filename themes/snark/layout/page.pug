@@ -1,15 +1,15 @@
 extends base
 
 block title
-    title= __(page.title) + ' | ' + config.title
+    title= __(page.title) + " | " + config.title
 
 block content
-    section(class='p-'+ page.title + ' p-ext p-common')
+    section(class="p-" + page.title + " p-ext p-common")
         h1.page-title= __(page.title)
         case page.title
-            when 'categories'
+            when "categories"
                 include categories.pug
-            when 'tags'
+            when "tags"
                 include tags.pug
 
         .p-content

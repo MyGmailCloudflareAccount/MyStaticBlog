@@ -23,9 +23,9 @@ block content
                         .p-content
                             != post.excerpt
                     else if post.content
-                        - var br = 0
+                        - var br = 0;
                         - for (var i = 0; i < 5; ++i) {
-                            - br = post.content.indexOf('\n',br+1)
+                            - br = post.content.indexOf("\n", br + 1);
                             if br < 0
                                 - break
                             if br > 150
@@ -38,8 +38,8 @@ block content
                             .p-content
                                 != post.content.substring(0, br)
                     //- readmore
-                    p(class='p-readmore')
-                        a(href=url_for(post.path))= __('阅读更多 >>')
+                    p.p-readmore
+                        a(href=url_for(post.path))= __("阅读更多 >>")
 
                 +post-meta(post)
     include _partial/paginator.pug

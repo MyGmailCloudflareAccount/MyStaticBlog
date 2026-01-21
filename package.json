@@ -7,7 +7,7 @@
         "clean": "npx cross-env NODE_ENV=production npx hexo clean",
         "deploy": "npx cross-env NODE_ENV=production npx hexo deploy",
         "server": "npx cross-env NODE_ENV=production npx hexo server",
-        "format": "npx prettier --tab-width 4 --use-tabs=false --write ."
+        "format": "npx prettier --plugin=@prettier/plugin-pug --tab-width 4 --use-tabs=false --write ."
     },
     "hexo": {
         "version": "8.1.1"
@@ -32,6 +32,7 @@
         "hexo-theme-landscape": "^1.0.0"
     },
     "devDependencies": {
+        "@prettier/plugin-pug": "^3.4.2",
         "prettier": "^3.8.0"
     }
 }
