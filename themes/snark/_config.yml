@@ -60,10 +60,6 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
     #- recent_comments
     #- links
 
-links:
-    - title: friend-1
-      url: https://www.friend-1.com
-
 # Static files
 js: js
 css: css
