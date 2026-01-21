@@ -98,8 +98,18 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: snark
 
-# Optimizes HTML, CSS, JS and imagages
 all_minifier: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  template: ./search.xml
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
