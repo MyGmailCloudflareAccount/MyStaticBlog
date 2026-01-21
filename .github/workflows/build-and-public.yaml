@@ -27,7 +27,7 @@ jobs:
           npm run build
 
       - name: deploy to public branch
-        uses: peaceiris/actions-gh-pages@main
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
           publish_dir: ./public
