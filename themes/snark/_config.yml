@@ -41,6 +41,8 @@ menu:
       directory: tags/
     - page: 关于
       directory: about/
+    - page: 友链
+      directory: links/
     - page: 订阅
       directory: atom.xml
 
