@@ -3,16 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npx hexo generate",
-    "clean": "npx hexo clean",
-    "deploy": "npx hexo deploy",
-    "server": "npx hexo server"
+    "build": "npx cross-env NODE_ENV=production npx hexo generate",
+    "clean": "npx cross-env NODE_ENV=production npx hexo clean",
+    "deploy": "npx cross-env NODE_ENV=production npx hexo deploy",
+    "server": "npx cross-env NODE_ENV=production npx hexo server"
   },
   "hexo": {
     "version": "8.1.1"
   },
   "dependencies": {
+    "cross-env": "^10.1.0",
     "hexo": "^8.0.0",
+    "hexo-all-minifier": "^0.5.7",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",

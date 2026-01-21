@@ -98,6 +98,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: concise
 
+# Optimizes HTML, CSS, JS and imagages
+all_minifier: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
