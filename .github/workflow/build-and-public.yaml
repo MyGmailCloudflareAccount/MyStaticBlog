@@ -1,0 +1,36 @@
+name: build and public
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-public:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      - name: setup nodejs latest
+        uses: actions/setup-node@main
+        with:
+          node-version: latest
+
+      - name: install dependencies and generate
+        run: |
+          npm install
+          npm run clean
+          npm run build
+
+      - name: deploy to public branch
+        uses: peaceiris/actions-gh-pages@main
+        with:
+          github_token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+          publish_dir: ./public
+          destination_dir: ./
+          publish_branch: public
+          keep_files: false
