@@ -96,7 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: concise
+theme: snark
 
 # Optimizes HTML, CSS, JS and imagages
 all_minifier: true
