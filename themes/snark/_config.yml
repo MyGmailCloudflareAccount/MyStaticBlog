@@ -35,10 +35,6 @@ theme_color: "#2d4356"
 menu:
     - page: 归档
       directory: archives/
-    - page: 分类
-      directory: categories/
-    - page: 标签
-      directory: tags/
     - page: 关于
       directory: about/
     - page: 友链
