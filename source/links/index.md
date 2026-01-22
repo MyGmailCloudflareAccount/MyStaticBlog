@@ -17,6 +17,12 @@ date: 2026-01-21 11:48:38
             name: "CyanTea的小站",
             desc: "just CyanTea的小站",
         },
+        {
+            avatar: "https://r2.anran.xyz/avatar.jpg",
+            link: "https://www.anran.xyz/",
+            name: "YingXinche的小站",
+            desc: "像Minecraft的存档一样失去了很久...",
+        },
     ];
 </script>
 
