@@ -1,8 +1,6 @@
 ---
 title: 基于深度学习的离线tts和stt的python实现
 date: 2025-04-06 05:05:00
-tags: []
-categories: 默认
 ---
 
 安装模型（stt用的vosk-model-cn-0.22，tts用的kokoro-v1.1-zh）

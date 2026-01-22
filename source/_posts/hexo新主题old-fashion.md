@@ -1,7 +1,5 @@
 ---
 title: hexo新主题old fashion
-tags: []
-categories: 默认
 date: 2025-07-17 22:52:48
 ---
 

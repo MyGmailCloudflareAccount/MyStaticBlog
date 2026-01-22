@@ -1,8 +1,6 @@
 ---
 title: flask简易doh服务器
 date: 2025-01-16 16:46:00
-tags: []
-categories: 默认
 ---
 
 ```python

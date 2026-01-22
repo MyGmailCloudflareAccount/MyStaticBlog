@@ -1,7 +1,5 @@
 ---
 title: nodebus cfgcenter从http迁移到ipc通信
-tags: []
-categories: 默认
 date: 2025-10-01 07:46:30
 ---
 

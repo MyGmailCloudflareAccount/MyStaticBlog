@@ -1,8 +1,6 @@
 ---
 title: loc.cc使用acme.sh自动签ssl
 date: 2025-06-04 13:14:47
-tags: []
-categories: 默认
 ---
 
 关于如何添加 ns 记录，目前除手动同步两边记录外并未有好方法，改 SOA 并未生效

@@ -1,7 +1,5 @@
 ---
 title: sfwg第2版本更新
-tags: []
-categories: 默认
 date: 2025-08-09 10:16:20
 ---
 

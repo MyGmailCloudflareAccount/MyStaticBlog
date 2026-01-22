@@ -1,8 +1,6 @@
 ---
 title: 免费docker容器鸡
 date: 2025-05-19 15:28:22
-tags: []
-categories: 默认
 ---
 
 免费 docker 容器鸡，可开端口，每次一小时，不限次，有 root

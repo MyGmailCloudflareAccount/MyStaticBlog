@@ -1,7 +1,5 @@
 ---
 title: alpine3.20安装code-server
-tags: []
-categories: 默认
 date: 2025-09-01 08:42:07
 ---
 

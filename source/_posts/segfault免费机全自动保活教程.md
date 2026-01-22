@@ -1,7 +1,5 @@
 ---
 title: segfault免费机全自动保活教程
-tags: []
-categories: 默认
 date: 2025-08-03 00:20:27
 ---
 

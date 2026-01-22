@@ -1,8 +1,6 @@
 ---
 title: alpine部署alist
 date: 2025-04-29 10:52:15
-tags: []
-categories: 默认
 ---
 
 记一次从 claw cloud run 迁移到 fnl mini 的经历，之前已经重装成 alpine 系统了，所以是 alpine 部署 alist 教程

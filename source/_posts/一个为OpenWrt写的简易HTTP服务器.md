@@ -1,7 +1,5 @@
 ---
 title: 一个为OpenWrt写的简易HTTP服务器
-tags: []
-categories: 默认
 date: 2026-01-04 09:19:41
 ---
 

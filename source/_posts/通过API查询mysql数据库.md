@@ -1,8 +1,6 @@
 ---
 title: 通过API查询mysql数据库
 date: 2024-12-09 12:53:00
-tags: []
-categories: 默认
 ---
 
 demo: https://runoneall.serv00.net/Files/mysql-driver.php

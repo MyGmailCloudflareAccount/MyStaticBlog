@@ -1,7 +1,5 @@
 ---
 title: segfault上的openvpn管理程序
-tags: []
-categories: 默认
 date: 2025-08-16 12:34:48
 ---
 

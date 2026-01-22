@@ -1,8 +1,6 @@
 ---
 title: update不写where导致的数据丢失
 date: 2025-01-21 10:42:07
-tags: []
-categories: 默认
 ---
 
 ![](https://s.rmimg.com/2025-01-21/1737452371-507903-2025-01-21-173516.png)

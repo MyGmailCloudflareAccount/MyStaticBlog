@@ -1,8 +1,6 @@
 ---
 title: 为 old fashion 主题的新版typecho适配
 date: 2024-12-13 19:21:00
-tags: []
-categories: 默认
 ---
 
 主题GitHub：https://github.com/MrXiaoM/typecho-theme-old-fashion

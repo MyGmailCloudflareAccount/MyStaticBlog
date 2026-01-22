@@ -1,7 +1,5 @@
 ---
 title: 使用nodebus批量管理多个服务器
-tags: []
-categories: 默认
 date: 2025-08-29 15:09:12
 ---
 

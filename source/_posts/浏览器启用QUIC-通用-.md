@@ -1,8 +1,6 @@
 ---
 title: 浏览器启用QUIC（通用）
 date: 2024-12-09 11:41:54
-tags: []
-categories: 默认
 ---
 
 - 此文章是对 [自建doh服务器+设置Firefox使用](https://runoneall.github.io/自建doh服务器-设置Firefox使用.html) 文章的补充

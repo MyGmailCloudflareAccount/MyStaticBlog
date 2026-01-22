@@ -1,7 +1,5 @@
 ---
 title: 我用纯Go实现的跨平台IPC操作库
-tags: []
-categories: 默认
 date: 2025-10-18 14:26:50
 ---
 

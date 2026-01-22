@@ -1,8 +1,6 @@
 ---
 title: 这次的ba 6th pv吃了不少Eva的点
 date: 2025-04-21 10:35:50
-tags: []
-categories: 默认
 ---
 
 以下仅表个人观点，欢迎勘误

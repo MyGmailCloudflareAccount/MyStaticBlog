@@ -1,7 +1,5 @@
 ---
 title: Debian系Firefox一键安装脚本
-tags: []
-categories: 默认
 date: 2025-07-27 08:02:15
 ---
 

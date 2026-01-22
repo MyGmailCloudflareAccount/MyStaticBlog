@@ -1,7 +1,5 @@
 ---
 title: 为segfault内网编写的文本聊天程序
-tags: []
-categories: 默认
 date: 2025-08-11 16:35:22
 ---
 

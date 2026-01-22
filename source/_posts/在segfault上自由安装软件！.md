@@ -1,7 +1,5 @@
 ---
 title: 在segfault上自由安装软件！
-tags: []
-categories: 默认
 date: 2025-08-19 06:11:14
 ---
 

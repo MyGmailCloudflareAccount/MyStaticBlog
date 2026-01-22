@@ -1,7 +1,5 @@
 ---
 title: mini套warp教程
-tags: []
-categories: 默认
 date: 2025-08-17 07:22:47
 ---
 

@@ -1,7 +1,5 @@
 ---
 title: segfault免费机套warp教程
-tags: []
-categories: 默认
 date: 2025-08-08 03:22:50
 ---
 

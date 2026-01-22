@@ -1,8 +1,6 @@
 ---
 title: python通用跨语言导入器
 date: 2025-06-25 16:47:32
-tags: []
-categories: 默认
 ---
 
 本质就是打包成so，然后用CDLL加载，但是可以直接用import

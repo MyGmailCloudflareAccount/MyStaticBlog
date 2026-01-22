@@ -1,8 +1,6 @@
 ---
 title: NL tg群里的给各位看个乐子
 date: 2025-01-06 15:21:00
-tags: []
-categories: 默认
 ---
 
 前情提要：

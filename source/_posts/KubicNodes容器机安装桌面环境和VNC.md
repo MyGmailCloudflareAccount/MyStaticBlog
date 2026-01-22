@@ -1,7 +1,5 @@
 ---
 title: KubicNodes容器机安装桌面环境和VNC
-tags: []
-categories: 默认
 date: 2025-07-26 09:04:31
 ---
 

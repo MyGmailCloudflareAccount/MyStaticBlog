@@ -1,7 +1,5 @@
 ---
 title: 用segfault免费机看orgv.eu的广告
-tags: []
-categories: 默认
 date: 2025-08-08 03:22:29
 ---
 

@@ -1,8 +1,6 @@
 ---
 title: alpine的alist服务脚本
 date: 2025-04-30 04:32:00
-tags: []
-categories: 默认
 ---
 
 此是对 https://dev.oneall.eu.org/archives/63 的补充

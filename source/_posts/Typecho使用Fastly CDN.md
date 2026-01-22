@@ -1,8 +1,6 @@
 ---
 title: Typecho使用Fastly CDN
 date: 2025-04-20 15:01:00
-tags: []
-categories: 默认
 ---
 
 主要介绍从FNL CDN迁移到Fastly的过程，及踩过的坑

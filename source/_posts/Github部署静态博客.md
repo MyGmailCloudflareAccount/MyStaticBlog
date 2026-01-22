@@ -1,8 +1,6 @@
 ---
 title: Github部署静态博客
 date: 2025-05-01 10:34:55
-tags: []
-categories: 默认
 ---
 
 此文章非Pages教程，我打算从typecho迁移到hexo，但是之前因为文件丢过一次，导致整个博客彻底停更，就一直用的typecho，后来得群友启发，用GitHub Action自动打包推到Netlify，颇有成效，于是写篇文章出来

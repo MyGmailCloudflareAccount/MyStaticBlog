@@ -1,7 +1,5 @@
 ---
 title: nodebus新功能：x11转发
-tags: []
-categories: 默认
 date: 2025-10-05 08:26:35
 ---
 

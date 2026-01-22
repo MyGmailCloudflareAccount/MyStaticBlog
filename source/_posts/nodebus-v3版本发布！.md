@@ -1,7 +1,5 @@
 ---
 title: nodebus v3版本发布！
-tags: []
-categories: 默认
 date: 2025-09-20 08:32:28
 ---
 

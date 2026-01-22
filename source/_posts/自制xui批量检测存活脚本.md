@@ -1,8 +1,6 @@
 ---
 title: 自制xui批量检测存活脚本
 date: 2024-12-09 12:46:00
-tags: []
-categories: 默认
 ---
 
 将得到的xui账号文件保存为 `source.txt`

@@ -1,7 +1,5 @@
 ---
 title: "nodebus新功能: cfgcenter"
-tags: []
-categories: 默认
 date: 2025-10-01 01:22:34
 ---
 

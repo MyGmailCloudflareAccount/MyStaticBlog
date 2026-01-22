@@ -1,7 +1,5 @@
 ---
 title: 论坛mini转发segfault免费机VNC
-tags: []
-categories: 默认
 date: 2025-08-04 07:34:28
 ---
 

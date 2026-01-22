@@ -1,8 +1,6 @@
 ---
 title: 用php解决跨域问题
 date: 2025-03-17 12:24:56
-tags: []
-categories: 默认
 ---
 
 ```php

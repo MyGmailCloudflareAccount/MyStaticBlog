@@ -1,7 +1,5 @@
 ---
 title: 如何在Windows上实现X11 Forwarding？
-tags: []
-categories: 默认
 date: 2025-10-06 13:19:11
 ---
 
