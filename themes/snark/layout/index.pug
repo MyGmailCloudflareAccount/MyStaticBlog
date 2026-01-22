@@ -20,23 +20,22 @@ block content
                     if post.description
                         .p-content
                             != post.description
+
                     else if post.excerpt
                         .p-content
                             != post.excerpt
+
                     else if post.content
                         -
-                            var br = 0;
-                            for (var i = 0; i < 5; ++i) {
-                                br = post.content.indexOf("\n", br + 1);
-                                if (br < 0 || br > 150) break;
-                            }
+                            var cleanContent = post.content.replace(/<\/?[^>]+(>|$)/g, "");
 
-                        if br < 0
-                            .p-content
-                                != post.content
-                        else
-                            .p-content
-                                != post.content.substring(0, br)
+                            var limit = 150;
+                            var displayContent = cleanContent.length > limit 
+                                ? cleanContent.substring(0, limit) + "..." 
+                                : cleanContent;
+
+                        .p-content
+                            != displayContent
 
                     //- readmore
                     p.p-readmore
