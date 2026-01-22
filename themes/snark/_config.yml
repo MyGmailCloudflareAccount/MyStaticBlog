@@ -1,6 +1,6 @@
 # config
 description: 我的开发记录、随笔、以及其他...
-email: my@rdev.qzz.io
+email: mailto:my@rdev.qzz.io
 
 # comment system
 valine: ## https://valine.js.org
