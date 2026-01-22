@@ -1,5 +1,5 @@
 ---
-title: links
+title: 友链
 date: 2026-01-21 11:48:38
 ---
 
