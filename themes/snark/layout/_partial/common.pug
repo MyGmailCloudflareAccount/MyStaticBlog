@@ -58,7 +58,7 @@ mixin post-copyright(post)
     .p-copyright: blockquote
         .p-copyright-author
             span.p-copyright-key= "本文作者："
-            span.p-copytight-value: a(href="mailto:litreily@163.com")= config.author
+            span.p-copytight-value: a(href=theme.email)= config.author
         .p-copyright-link
             span.p-copyright-key= "本文链接："
             span.p-copytight-value: a(href=url_for(post.path))= config.url + "/" + post.path
