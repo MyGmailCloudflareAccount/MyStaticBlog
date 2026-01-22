@@ -29,6 +29,12 @@ date: 2026-01-21 11:48:38
             name: "Qrasa 的小站",
             desc: "记录一些活着的日常",
         },
+        {
+            avatar: "https://chat-webp.000434.xyz/054d3a1ca86f5e0a394939473defe0ef.jpeg",
+            link: "https://tujiangh.github.io/",
+            name: "酱粉的小窝",
+            desc: "随笔，手记，生活分享，情感树洞（？",
+        },
     ];
 </script>
 
