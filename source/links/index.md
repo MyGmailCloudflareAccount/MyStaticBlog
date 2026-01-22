@@ -23,6 +23,12 @@ date: 2026-01-21 11:48:38
             name: "YingXinche的小站",
             desc: "像Minecraft的存档一样失去了很久...",
         },
+        {
+            avatar: "https://qrasa.cn/assets/avatar.png",
+            link: "https://blog.qrasa.cn/",
+            name: "Qrasa 的小站",
+            desc: "记录一些活着的日常",
+        },
     ];
 </script>
 
