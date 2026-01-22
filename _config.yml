@@ -109,9 +109,6 @@ feed:
     enable: true
     type: atom
     path: atom.xml
-    limit: 0 # Setting to 0 or false shows all posts (default is usually 20)
-    content: true # This ensures the full post body is included
-    content_limit: 150 # Ensures no character limit is placed on the content
 
 sitemap:
     path:
