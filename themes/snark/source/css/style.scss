@@ -36,11 +36,12 @@ article {
     padding: 0;
 }
 
-//html {
-//scroll-behavior: smooth;
-//}
+html {
+    height: 100%; // Ensures the root element has a height base
+}
 
 body {
+    min-height: 100vh; // Sets minimum height to 100% of the viewport height
     background-image: url(/img/backgroud.png);
     background-repeat: repeat-y;
     background-position-x: $head-width - 400px;
