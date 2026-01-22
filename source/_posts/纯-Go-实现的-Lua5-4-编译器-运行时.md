@@ -77,3 +77,7 @@ lib 中可以使用全部的 go 标准库，具体可看：https://github.com/tr
 # 打包
 
 基于 https://github.com/rolua-org/ropacker 进行跨平台打包
+
+# 加入云湖交流群
+
+访问链接加入云湖群聊【RoLua 交流群】 https://yhfx.jwznb.com/share?key=rBQsYwr1WzJi&ts=1769068355
