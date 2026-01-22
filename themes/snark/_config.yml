@@ -35,15 +35,15 @@ theme_color: "#2d4356"
 
 menu:
     - page: 首页
-      directory: /
+      directory:
     - page: 归档
-      directory: /archives
+      directory: archives
     - page: 关于
-      directory: /about
+      directory: about
     - page: 友链
-      directory: /links
+      directory: links
     - page: 订阅
-      directory: /atom.xml
+      directory: atom.xml
 
 icons:
     date: fa fa-calendar
