@@ -41,6 +41,7 @@ html {
 }
 
 body {
+    margin: 0; // Removes default browser padding/margins
     min-height: 100vh; // Sets minimum height to 100% of the viewport height
     background-image: url(/img/backgroud.png);
     background-repeat: repeat-y;
