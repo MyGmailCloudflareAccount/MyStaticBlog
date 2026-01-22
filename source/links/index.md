@@ -3,6 +3,23 @@ title: 友链
 date: 2026-01-21 11:48:38
 ---
 
+# 想跟我交换友链吗？
+
+1. 添加我的友链
+
+```json
+{
+    "avatar": "https://rdev.qzz.io/favicon.webp",
+    "link": "https://rdev.qzz.io/",
+    "name": "Runoneall Develop",
+    "desc": "我的开发记录、随笔、以及其他..."
+}
+```
+
+2. [通过邮件](mailto:my@rdev.qzz.io) 提醒我 或在 [NodeLoc](https://www.nodeloc.com/) 上提到我 `@runoneall`
+
+# 我的朋友们：
+
 <script>
     const links = [
         {
