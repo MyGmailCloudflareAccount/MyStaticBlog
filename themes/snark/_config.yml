@@ -27,15 +27,15 @@ customize_css: false ## if enable customize_css, it will load file source/css/cu
 fancybox: true ## for image view
 copyright: true ## for CC BY-NC 4.0 license
 highlight: ## only choose one of below items
-    google_code_prettify: false
-    highlight: true ## highlight.js
+    google_code_prettify: true
+    highlight: false ## highlight.js
     highlight_theme: "atom-one-dark" ## refer: https://highlightjs.org/static/demo/
 
 theme_color: "#2d4356"
 
 menu:
     - page: 首页
-      directory:
+      directory: /
     - page: 归档
       directory: archives
     - page: 关于
