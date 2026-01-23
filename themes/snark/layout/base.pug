@@ -23,7 +23,7 @@ html(lang="en")
                 src=url_for(theme.plugins) + "/prettify/prettify.js",
                 defer
             )
-            script.
+            script(defer).
                 $(document).ready(function () {
                     $("pre").addClass("prettyprint linenums").attr("style", "overflow:auto;");
                     $(".p-content code").addClass("prettyprint");
@@ -42,7 +42,7 @@ html(lang="en")
                 src=url_for(theme.plugins) + "/highlight/highlight.min.js",
                 defer
             )
-            script.
+            script(defer).
                 hljs.initHighlightingOnLoad();
 
         script(
