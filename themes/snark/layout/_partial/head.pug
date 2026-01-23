@@ -20,10 +20,7 @@ head
         href=url_for(theme.css) + "/style.css"
     )
     link(rel="Shortcut Icon", type="image/x-icon", href=url_for("favicon.png"))
-    link(
-        rel="stylesheet",
-        href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    )
+    link(rel="stylesheet", href="/css/font-awesome.min.css")
     script(type="text/javascript", src="/js/jquery.min.js")
     include baidu-analytics.pug
     block more
