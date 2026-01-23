@@ -145,3 +145,5 @@ var searchFunc = function (path, search_id, content_id) {
         },
     });
 };
+
+searchFunc(search_path, "local-search-input", "local-search-result");
