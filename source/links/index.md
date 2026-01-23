@@ -154,7 +154,7 @@ date: 2026-01-21 11:48:38
 </div>
 
 <script>
-    window.onload = () => {
+    window.addEventListener('load', () => {
         const linkNav = document.getElementsByClassName("link-navigation")[0];
 
         const html = links
@@ -172,5 +172,5 @@ date: 2026-01-21 11:48:38
             .join("");
 
         linkNav.innerHTML = html;
-    };
+    });
 </script>
