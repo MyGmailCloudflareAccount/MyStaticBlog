@@ -5,7 +5,7 @@ if theme.busuanzi
     script(
         type="text/javascript",
         src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",
-        async
+        defer
     )
 
 if theme.local_search == true
@@ -26,5 +26,5 @@ if theme.fancybox == true
     script(
         type="text/javascript",
         src=url_for(theme.js) + "/fancybox.js" + "?v=" + theme.version,
-        async
+        defer
     )
