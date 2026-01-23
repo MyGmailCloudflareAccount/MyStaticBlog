@@ -154,7 +154,7 @@ date: 2026-01-21 11:48:38
 </div>
 
 <script>
-    window.addEventListener('load', () => {
+    $(document).ready(() => {
         const linkNav = document.getElementsByClassName("link-navigation")[0];
 
         const html = links
