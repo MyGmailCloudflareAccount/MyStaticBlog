@@ -6,13 +6,17 @@ html(lang="en")
             link(
                 rel="stylesheet",
                 type="text/css",
-                href=url_for(theme.css) + "/customize.css"
+                href=url_for(theme.css) + "/customize.css",
+                media="print",
+                onload="this.media='all'; this.onload=null;"
             )
         if theme.highlight.google_code_prettify
             link(
                 rel="stylesheet",
                 type="text/css",
-                href=url_for(theme.plugins) + "/prettify/doxy.css"
+                href=url_for(theme.plugins) + "/prettify/doxy.css",
+                media="print",
+                onload="this.media='all'; this.onload=null;"
             )
             script(
                 type="text/javascript",
@@ -28,7 +32,9 @@ html(lang="en")
             link(
                 rel="stylesheet",
                 type="text/css",
-                href=url_for(theme.plugins) + "/highlight/" + __(theme.highlight.highlight_theme) + ".min.css"
+                href=url_for(theme.plugins) + "/highlight/" + __(theme.highlight.highlight_theme) + ".min.css",
+                media="print",
+                onload="this.media='all'; this.onload=null;"
             )
             script(
                 type="text/javascript",
@@ -45,7 +51,9 @@ html(lang="en")
         if theme.fancybox
             link(
                 rel="stylesheet",
-                href=url_for(theme.css) + "/jquery.fancybox.min.css"
+                href=url_for(theme.css) + "/jquery.fancybox.min.css",
+                media="print",
+                onload="this.media='all'; this.onload=null;"
             )
 
     body.night
