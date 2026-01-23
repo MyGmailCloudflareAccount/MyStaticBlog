@@ -28,6 +28,10 @@ head
         media="print",
         onload="this.media='all'; this.onload=null;"
     )
-    script(type="text/javascript", src=url_for(theme.js) + "/jquery.min.js")
+    script(
+        type="text/javascript",
+        src=url_for(theme.js) + "/jquery.min.js",
+        defer
+    )
     include baidu-analytics.pug
     block more
