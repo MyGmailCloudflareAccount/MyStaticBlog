@@ -9,7 +9,7 @@ if theme.busuanzi
     )
 
 if theme.local_search == true
-    script.
+    script(defer).
         var search_path = "#{config.search.path}";
         if (search_path.length == 0) {
             search_path = "search.xml";
