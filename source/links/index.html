@@ -3,24 +3,31 @@ title: 友链
 date: 2026-01-21 11:48:38
 ---
 
-## 想跟我做朋友吗？
+<h2>想跟我做朋友吗？</h2>
 
-1. 添加我的友链
-
-```json
-{
+<ol>
+    <li>
+        1. 添加我的友链
+        <pre><code class="language-json">{
     "avatar": "https://rdev.qzz.io/favicon.webp",
     "link": "https://rdev.qzz.io/",
     "name": "Runoneall Develop",
     "desc": "我的开发记录、随笔、以及其他..."
-}
-```
+}</code></pre>
+    </li>
+    <li>
+        2.&nbsp;
+        <a href="mailto:my@rdev.qzz.io">通过邮件</a>
+        &nbsp;提醒我&nbsp;或在&nbsp;
+        <a href="https://www.nodeloc.com/">NodeLoc</a>
+        &nbsp;上提到我&nbsp;
+        <code>@runoneall</code>
+    </li>
+</ol>
 
-2. [通过邮件](mailto:my@rdev.qzz.io) 提醒我 或在 [NodeLoc](https://www.nodeloc.com/) 上提到我 `@runoneall`
+<br />
 
-<br>
-
-## 我的朋友们：
+<h2>我的朋友们：</h2>
 
 <script>
     const links = [
@@ -154,23 +161,21 @@ date: 2026-01-21 11:48:38
 </div>
 
 <script>
-    window.addEventListener('load', () => {
-        const linkNav = document.getElementsByClassName("link-navigation")[0];
+    const linkNav = document.getElementsByClassName("link-navigation")[0];
 
-        const html = links
-            .map(
-                (item) => `<div class="card">
-    <img class="ava" src="${item.avatar}" />
-    <div class="card-header">
-        <div>
-            <a href="${item.link}" target="_blank">${item.name}</a>
-        </div>
-        <div class="info">${item.desc}</div>
+    const html = links
+        .map(
+            (item) => `<div class="card">
+<img class="ava" src="${item.avatar}" />
+<div class="card-header">
+    <div>
+        <a href="${item.link}" target="_blank">${item.name}</a>
     </div>
+    <div class="info">${item.desc}</div>
+</div>
 </div>`,
-            )
-            .join("");
+        )
+        .join("");
 
-        linkNav.innerHTML = html;
-    });
+    linkNav.innerHTML = html;
 </script>
