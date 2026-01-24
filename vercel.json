@@ -1,15 +1,20 @@
 {
     "headers": [
         {
-            "source": "(.*)",
+            "source": "/(.*).(jpg|jpeg|png|gif|webp|css|js|woff2)",
             "headers": [
                 {
                     "key": "Cache-Control",
-                    "value": "public, s-maxage=86400, max-age=86400"
-                },
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/(.*)",
+            "headers": [
                 {
-                    "key": "Vercel-CDN-Cache-Control",
-                    "value": "max-age=31536000"
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
                 }
             ]
         }
