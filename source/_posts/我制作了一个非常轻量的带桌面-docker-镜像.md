@@ -9,7 +9,7 @@ date: 2026-02-03 12:01:40
 
 发布地址： [runoneall/tiny-alpine-desktop - Docker Image](https://hub.docker.com/r/runoneall/tiny-alpine-desktop)
 
-镜像只有 150.4 MB，解压后 601.7 MB，启动时只需 `-e USER_PASSWD=<your_password>` 设置密码即可，端口配置 `-p 3389:3389`
+镜像只有 124.4 MB，解压后 350.9 MB，启动时只需 `-e USER_PASSWD=<your_password>` 设置密码即可，端口配置 `-p 3389:3389`
 
 ---
 
