@@ -1,4 +1,55 @@
 ---
-title: browser-startup
-date: 2026-02-04 06:34:42
+layout: false
 ---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Startup Page</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+                position: relative;
+            }
+            .container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+            pre {
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            input {
+                width: 300px;
+            }
+            button {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <pre>
+  _______   ______     ______     _______  __       _______ 
+ /  _____| /  __  \   /  __  \   /  _____||  |     |   ____|
+|  |  __  |  |  |  | |  |  |  | |  |  __  |  |     |  |__   
+|  | |_ | |  |  |  | |  |  |  | |  | |_ | |  |     |   __|  
+|  |__| | |  `--'  | |  `--'  | |  |__| | |  `----.|  |____ 
+ \______|  \______/   \______/   \______| |_______||_______|</pre
+            >
+            <form action="https://www.google.com/search" method="get">
+                <input type="text" name="q" />
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </body>
+</html>
