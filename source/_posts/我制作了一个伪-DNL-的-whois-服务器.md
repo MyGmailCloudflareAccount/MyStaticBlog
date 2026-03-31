@@ -1,5 +1,5 @@
 ---
-title: 我制作了一个伪 FNL 的 whois 服务器
+title: 我制作了一个伪 DNL 的 whois 服务器
 date: 2026-03-30 10:31:28
 ---
 
