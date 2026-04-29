@@ -21,13 +21,7 @@ head
         media="print",
         onload="this.media='all'; this.onload=null;"
     )
-    link(
-        rel="Shortcut Icon",
-        type="image/x-icon",
-        href=url_for("favicon.png"),
-        media="print",
-        onload="this.media='all'; this.onload=null;"
-    )
+    link(rel="icon", href=url_for("favicon.ico"))
     script(type="text/javascript", src=url_for(theme.js) + "/jquery.js", defer)
     include baidu-analytics.pug
     block more
